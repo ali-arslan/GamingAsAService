@@ -22,13 +22,13 @@
     The deployment scenario of the project is shown below:
 </p>
 <p>
-    <img width="480" height="405" src="file:///C:/Users/ALIARS~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg"/>
+    <img width="480" height="405" src="https://github.com/ali-arslan/GamingAsAService/blob/master/Screens/1.png"/>
 </p>
 <p>
-    <img width="480" height="370" src="file:///C:/Users/ALIARS~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg"/>
+    <img width="480" height="370" src="https://github.com/ali-arslan/GamingAsAService/blob/master/Screens/2.png"/>
 </p>
 <p>
-    <img width="480" height="388" src="file:///C:/Users/ALIARS~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg"/>
+    <img width="480" height="388" src="https://github.com/ali-arslan/GamingAsAService/blob/master/Screens/3.png"/>
 </p>
 <h2>
     Central Server
@@ -77,7 +77,7 @@
     screenshot of the client is shown below:
 </p>
 <p>
-    <img width="639" height="458" src="file:///C:/Users/ALIARS~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg"/>
+    <img width="639" height="458" src="https://github.com/ali-arslan/GamingAsAService/blob/master/Screens/4.png"/>
 </p>
 <p>
     Instructions to run:
