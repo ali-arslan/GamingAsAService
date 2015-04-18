@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10.0" onMouseMoved="#handle" prefHeight="515.0" prefWidth="773.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxmainapp.Controller">
+  <children>
+    <AnchorPane fx:id="mainAncPane" prefHeight="514.0" prefWidth="772.0">
+      <children>
+        <Rectangle fx:id="captureRectangle" arcHeight="5.0" arcWidth="5.0" fill="#09121b" height="488.93408203125" layoutX="118.0" layoutY="18.0" onKeyPressed="#handle" onMouseEntered="#handle" stroke="BLACK" strokeType="INSIDE" width="654.0" />
+        <Button fx:id="button1" layoutX="11.0" layoutY="480.0" mnemonicParsing="false" onAction="#handle" prefWidth="95.0" text="Connect IO" />
+        <Text layoutX="118.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STATUS:" />
+        <ImageView fx:id="viewver" fitHeight="476.25" fitWidth="635.0" layoutX="127.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@hjk.jpg" />
+          </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="21.0" layoutX="118.0" layoutY="0.0" opacity="0.41" stroke="BLACK" strokeType="INSIDE" width="654.0" />
+        <Button fx:id="updatebutton" layoutX="12.0" layoutY="423.0" mnemonicParsing="false" text="Start Video" />
+        <Button fx:id="stopbutt" layoutX="12.0" layoutY="453.0" mnemonicParsing="false" text="Stop Video" />
+        <Text fx:id="status" layoutX="180.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ready" />
+        <Button fx:id="connectserv" layoutX="5.0" layoutY="52.0" mnemonicParsing="false" prefWidth="107.0" text="Connect Server">
+          <font>
+            <Font size="11.0" />
+          </font>
+        </Button>
+        <TextField fx:id="addressfield" layoutX="11.0" layoutY="25.0" prefWidth="95.0" promptText="Address" />
+        <Text layoutX="11.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter main servers IP">
+          <font>
+            <Font size="9.0" />
+          </font>
+        </Text>
+      </children>
+    </AnchorPane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints />
+  </rowConstraints>
+</GridPane>
