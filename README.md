@@ -1,10 +1,4 @@
 <p>
-    Cloud Gaming/Multiuser Remote Desktop
-</p>
-<h1>
-    Introduction
-</h1>
-<p>
     The aim of the project is to implement a distributed Remote Desktop/VNC style application geared towards remote 'cloud' gaming.
 </p>
 <h1>
